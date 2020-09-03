@@ -1,0 +1,91 @@
+/* miniprogram/pages/advance/advance.wxss */
+.btn {
+  width:400rpx;
+  height: 100rpx;
+  border-radius: 100rpx;
+  background-color: pink;
+  color: white;
+  line-height: 100rpx;
+  text-align: center;
+
+}
+
+.content {
+  height: 100%;
+  width: 100%;
+}
+
+
+.text-content {
+  padding: 0 25rpx;
+}
+
+.input{
+  display: flex;
+}
+.icon{
+  margin: 20rpx;
+}
+
+.input-content{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 36px;
+  align-items: center;
+  line-height: 36px;
+  border-radius: 5px;
+  background-color: #f3efef;
+  padding: 5px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+
+.btn-func {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  margin: 0 auto;
+  align-items: center;
+}
+
+
+.bt_connect{
+  width: 400rpx;
+  height: 70rpx;
+  color: #6699FF;
+  border: 3rpx solid #6699FF;
+  border-radius: 80rpx;
+  font-size: 35rpx;
+  margin-top: 40rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* border-radius: 98rpx;是控制按钮边变圆 */
+.goodbutton {
+  margin-top: 30px;
+  width: 80%;
+  background-color: rgb(252, 126, 67);
+  color: white;
+  border-radius: 98rpx;
+  background: bg_red;
+}
+ 
+/* 按下变颜色 */
+.hover {
+  background:  rgb(236, 179, 156);
+}
+/* .btn {
+  width: 220px;
+  height: 45px;
+  line-height: 45px;
+  background-color: #d50310;
+  color: #fff;
+  border-radius: 50px;
+  margin-bottom: 20px;
+} */
+

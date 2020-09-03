@@ -1,0 +1,20 @@
+
+<cu-custom bgColor="bg-gradual-green"><view slot="content">车辆使用登记</view></cu-custom>
+
+<view class="cu-list menu card-menu margin-top-xl margin-bottom-xl shadow-lg radius">
+  <view class="cu-item arrow"  wx:for="{{carlist}}" bindtap="navigate" data-state="{{item.state}}" data-carname="{{item.name}}">
+    <view class="content"  hover-class="none">
+      <text class="cuIcon-formfill text-{{item.state?'green':'grey'}}"></text>
+      <text class="text-{{item.state?'green':'grey'}}">{{item.name}}</text>
+    </view>
+  </view>
+</view>
+
+<view class="cu-list menu card-menu margin-top-xl margin-bottom-xl shadow-lg radius">
+  <view class="cu-item arrow"  bindtap="history" >
+    <view class="content"  hover-class="none">
+      <text class="cuIcon-formfill text-grey"></text>
+      <text class="text-grey">借用记录查看</text>
+    </view>
+  </view>
+</view>

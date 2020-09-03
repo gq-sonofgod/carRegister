@@ -1,0 +1,18 @@
+<cu-custom bgColor="bg-gradual-green" isBack="{{true}}"><view slot="backText">返回</view><view slot="content">日志</view></cu-custom>
+<button  class="bt_connect" shape="circle" bindtap='cancelCar' >点击还车</button>
+<view class="cu-timeline">
+  <view class="cu-item text-green" wx:for="{{log}}">
+    <view class="bg-green content shadow">
+      <view class="cu-capsule radius">
+        <view class="cu-tag bg-white text-green">{{item.name}}</view>
+        <view class="cu-tag line-white">{{item.uploaddate}}</view>
+      </view>
+      <view class="margin-top-sm text-content">
+      联系方式：{{item.phonenumber}}
+      </view>
+      <view class="margin-top-sm text-content">
+      返回时间： {{item.endtime}}
+      </view>
+    </view>
+  </view>
+</view>
